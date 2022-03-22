@@ -1,5 +1,5 @@
-# boilerplate HTML + CSS + Javascript
-estrutura de código para projetos em HTML CSS e Javascript
+# Curriculo HTML + CSS + Javascript + Bootstrap
+Página de apresentação com resumo sobre mim
 
 ## estrutura de pastas
 public
