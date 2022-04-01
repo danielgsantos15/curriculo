@@ -17,7 +17,7 @@
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
         <div class="container">
             <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                <a class="text-uppercase nav-item nav-link" href="#page-top">home</a>
+                <a class="text-uppercase nav-link" href="#page-top"><i class="fa-solid fa-code"></i></a>
             </ul>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponse" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
@@ -29,6 +29,7 @@
                     <li class="nav-item"><a class="nav-link" href="#estudando">estudando</a></li>
                     <li class="nav-item"><a class="nav-link" href="#formacao">formação</a></li>
                     <li class="nav-item"><a class="nav-link" href="#competencias">competências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">contato</a></li>
                 </ul>
             </div>
         </div>
@@ -36,10 +37,9 @@
     <!--Masthead-->
     <header class="masthead" id="page-top">
         <div class="container">
-            <div class="row col-md-6 ms-auto">
-                <div class="masthead-subheading text-uppercase"><strong>Daniel santos</strong></div>
-                <div class="masthead-subheading text-uppercase">Desenvolvedor web</div>
-                <div class="masthead-subheading text-uppercase">são paulo, sp</div>
+            <div class="row col-md-7 ms-auto">
+                <div class="masthead-heading text-uppercase"><strong>Daniel santos</strong></div>
+                <div class="masthead-subheading text-uppercase"><h3>Desenvolvedor web</h3></div>
                 <a class="btn btn-outline-light text-uppercase mx-auto col-md-4" href="curriculo_daniel.pdf" download="currículo_daniel_santos">Download cv</a>
             </div>
         </div>
@@ -51,7 +51,7 @@
                 <h1 class="section-heading text-uppercase"><strong>sobre mim</strong></h1>
                 <h5 class="section-subheading text-muted">
                     <p>
-                        Me chamo Daniel e estou no início da minha carreira como Desenvolvedor. Em 2015 iniciei meus estudos na área de tecnologia com um curso de WEB Design e em 2018 ingressei na faculdade Análise e Desenvolvimento de Sistemas. Desde criança sou curioso, desmontava meus brinquedos para ver como funcionavam. Quando crescido, por influência do meu irmão, quis entender como é por trás desse mundo tecnológico. Sou autodidata e sinto facilidade em aprender coisas, principalmente para ajudar pessoas ou resolver problemas.
+                        Me chamo Daniel, moro em São Paulo - SP e estou no início da minha carreira como Desenvolvedor. Em 2015 iniciei meus estudos na área de tecnologia com um curso de WEB Design e em 2018 ingressei na faculdade Análise e Desenvolvimento de Sistemas. Desde criança sou curioso, desmontava meus brinquedos para ver como funcionavam. Quando crescido, por influência do meu irmão, quis entender como é por trás desse mundo tecnológico. Sou autodidata e sinto facilidade em aprender coisas, principalmente para ajudar pessoas ou resolver problemas.
                     </p> 
                 </h5>
             </div>
@@ -68,7 +68,7 @@
                     <span class="fa-stack fa-3x">
                         <i class="fa-brands fa-html5"></i>
                     </span>
-                    <h2 class="my-3">HTML & CSS</h4>
+                    <h2 class="my-3">HTML & CSS</h2>
                     <p class="text-muted h5">Curso de WEB Design em <a href="https://www.linkedin.com/company/casa-taiguara-de-cultura/" target="blank">Casas Taiguara</a>, (72h), desenvolvi um site estático utilizando HTML e CSS.</p>
                 </div>
                 <div class="col-md-3">
@@ -89,7 +89,7 @@
                     <span class="fa-stack fa-3x">
                         <i class="fa-solid fa-code-branch"></i>
                     </span>
-                    <h2 class="my-3">Git</h4>
+                    <h2 class="my-3">Git</h2>
                         <p class="text-muted h5">Curso básico de Git e GitHub na Udemy (2h). Você também pode conferir toda a documentação dessa página no <a href="https://github.com/danielgsantos15/curriculo" target="blank">GitHub</a></p>
                 </div>
             </div>
@@ -182,75 +182,54 @@
             </div>
         </div>
     </section>
-    <!--Feedback-->
+    <!--Contato-->
     <section class="page-section bg-light" id="contact">
         <div class="container align-items-center col-md-6">
             <div class="text-center">
-                <h2 class="section-heading text-uppercase">Feedback</h2>
-                <h3 class="section-subheading text-muted">Me dia o que achou do site, mande alguma crítica ou sugestão.</h3>
+                <h2 class="section-heading text-uppercase"><strong>Contato</strong></h2>
+                <h3 class="section-subheading text-muted">Me diga o que achou do site, mande alguma crítica ou sugestão.</h3>
             </div>
-            <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+            <form action="https://formsubmit.co/danieldesantos99@gmail.com" method="post" id="contactForm">
                 <div class="align-items-center">
                     <div class="col-md-12">
                         <div class="form-group">
                             <!-- Name input-->
-                            <input class="form-control" id="name" type="text" placeholder="Nome"
-                                data-sb-validations="required" />
-                            <div class="invalid-feedback" data-sb-feedback="name:required">Insira seu nome.</div>
+                            <input class="form-control" id="name" name="name" type="text" placeholder="Nome" required/>
                         </div>
                         <div class="form-group">
                             <!-- Email address input-->
-                            <input class="form-control" id="email" type="email" placeholder="Seu nome"
-                                data-sb-validations="required,email" />
-                            <div class="invalid-feedback" data-sb-feedback="email:required">Insira seu Email.</div>
-                            <div class="invalid-feedback" data-sb-feedback="email:email">Email inválido.</div>
+                            <input class="form-control" id="email" name="email" type="email" placeholder="Email" required/>
                         </div>
                         <div class="form-group ">
                             <!-- Message input-->
-                            <textarea class="form-control" id="message" placeholder="Feedback" data-sb-validations="required"></textarea>
-                            <div class="invalid-feedback" data-sb-feedback="message:required">Insira seu feedback.</div>
+                            <textarea class="form-control" name="feedback" id="message" placeholder="Feedback" required></textarea>
                         </div>
-                        
                     </div>
-                </div>
-                <div class="d-none" id="submitSuccessMessage">
-                    <div class="text-center text-white mb-3">
-                        <div class="fw-bolder">Feedback enviado com sucesso!</div>
-                        To activate this form, sign up at
-                        <br />
-                        <a
-                            href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                    </div>
-                </div>
-                <div class="d-none" id="submitErrorMessage">
-                    <div class="text-center text-danger mb-3">Falha ao enviar mensagem!</div>
                 </div>
                 <!-- Submit Button-->
-                <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase disabled" id="submitButton"
-                        type="submit">Enviar feedback</button></div>
+                <div class="text-center">
+                    <button class="btn btn-dark btn-xl text-uppercase" type="submit">Enviar</button>
+                </div>
             </form>
         </div>
     </section>
+    <hr>
     <!--Footer-->
     <footer class="footer py-4">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-4 text-md-start">&copy;2022 Daniel Santos</div>
                 <div class="col-md-4 my-3 my-md-0">
-                    <a href="https://www.linkedin.com/in/danielgsantos/" target="blank"><i class="fa-brands fa-linkedin fa-3x"></i></a>
-                    <a href="https://github.com/danielgsantos15" target="blank"><i class="fa-brands fa-github fa-3x"></i></a>
+                    <a href="https://www.linkedin.com/in/danielgsantos/" target="blank" style="color: #0077b5;"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+                    <a href="https://github.com/danielgsantos15" target="blank" style="color: black;"><i class="fa-brands fa-github fa-2x"></i></a>
                 </div>
+                <p class="nav col-md-4 justify-content-end">Obrigado pela atenção, espero que tenha gostado!</p>
             </div>
         </div>
     </footer>
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
     <script src="index.js"></script>
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-    <!-- * *                               SB Forms JS                               * *-->
-    <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-    <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 </html>
