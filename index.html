@@ -5,189 +5,329 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/6609a90140.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
     <title>Daniel Santos</title>
 </head>
 <body id="pag-top">
+
     <!--navigation-->
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg " id="mainNav">
         <div class="container container-fluid">
             <ul class="navbar-nav text-uppercase">
                 <a class="text-uppercase nav-link navbar-brand" href="#page-top"><i class="fa-solid fa-code"></i></a>
             </ul>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponse" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler btn-outline-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponse" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="#sobre-mim">sobre mim</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#conhecimentos">conhecimentos</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#estudando">estudando</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#formacao">formação</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#competencias">competências</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">sobre mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#tecnologys">tecnologias</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#development">desenvolvimento</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">formação</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">contato</a></li>
                 </ul>
+                <a class="btn btn-light text-uppercase mx-auto col-auto" href="curriculo_daniel.pdf" download="currículo_daniel_santos">Download cv</a>
             </div>
         </div>
     </nav>
+
     <!--Masthead-->
     <header class="masthead" id="page-top">
         <div class="container">
-            <div class="col-md-7 ms-auto">
+            <div class="col-md-12 ms-auto">
                 <div class="masthead-heading text-uppercase"><strong>Daniel santos</strong></div>
-                <div class="masthead-subheading text-uppercase"><h3>Desenvolvedor web</h3></div>
-                <a class="btn btn-outline-light text-uppercase mx-auto col-md-4" href="curriculo_daniel.pdf" download="currículo_daniel_santos">Download cv</a>
+                <div class="masthead-subheading text-uppercase"><h3>Back-end developer</h3></div>
             </div>
         </div>
     </header>
-    <!--Sobre mim-->
-    <section class="page-section" id="sobre-mim">
+
+    <!--About-->
+    <section class="page-section bg-light" id="about">
         <div class="container">
-            <div class="text-center">
-                <h1 class="section-heading text-uppercase"><strong>sobre mim</strong></h1>
-                <h5 class="section-subheading text-muted">
-                    <p>
-                        Me chamo Daniel, moro em São Paulo - SP e estou no início da minha carreira como Desenvolvedor. Em 2015 iniciei meus estudos na área de tecnologia com um curso de WEB Design e em 2018 ingressei na faculdade Análise e Desenvolvimento de Sistemas. Desde criança sou curioso, desmontava meus brinquedos para ver como funcionavam. Quando crescido, por influência do meu irmão, quis entender como é por trás desse mundo tecnológico. Sou autodidata e sinto facilidade em aprender coisas, principalmente para ajudar pessoas ou resolver problemas.
-                    </p> 
-                </h5>
-            </div>
-        </div>
-    </section>
-    <!--Conhecimentos-->
-    <section class="page-section bg-light" id="conhecimentos">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="section-heading text-uppercase"><strong>Conhecimentos técnicos</strong></h1>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
-                        <i class="fa-brands fa-html5"></i>
-                    </span>
-                    <h2 class="my-3">HTML & CSS</h2>
-                    <p class="text-muted h5">Curso de WEB Design em <a class="text-decoration-none" href="https://www.linkedin.com/company/casa-taiguara-de-cultura/" target="blank">Casas Taiguara</a>, (72h), desenvolvi um site estático utilizando HTML e CSS.</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
-                        <i class="fa-brands fa-js"></i>
-                    </span>
-                    <h2 class="my-3">Javascript</h3>
-                    <p class="text-muted h5">Conhecimentos de faculdade, somado a cursos livres pelo YouTube e curso de Javascript avançado na Udemy (22h).</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
-                        <i class="fa-solid fa-database"></i>
-                    </span>
-                    <h2 class="my-3">MySQL</h3>
-                    <p class="text-muted h5">Faculdade e curso de banco de dados na Udemy (4,5h), criação de tabelas, consultas, alterações, inserção, exclusão de dados</p>
-                </div>
-                <div class="col-md-3">
-                    <span class="fa-stack fa-3x">
-                        <i class="fa-solid fa-code-branch"></i>
-                    </span>
-                    <h2 class="my-3">Git</h2>
-                        <p class="text-muted h5">Curso básico de Git e GitHub na Udemy (2h). Você também pode conferir toda a documentação dessa página no <a class="text-decoration-none" href="https://github.com/danielgsantos15/curriculo" target="blank">GitHub</a></p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!--Adquirindo conhecimento-->
-    <section class="page-section" id="estudando">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="section-heading text-uppercase"><strong>Adquirindo conhecimento</strong></h1>
-                <h3 class="section-subheading text-muted"></h3>
-            </div>
-        </div>
-        <ul class="timeline">
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/bootstrap.png" alt="..."></i></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h2>Bootstrap</h2>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted h5">
-                            Esta página foi criada utilizãndo Bootstrap<br>
-                            Ferramenta para criação de Websites<br>
-                            <a class="text-decoration-none" href="https://startbootstrap.com/theme/agency" target="_blank" rel="noopener noreferrer">Layout</a> usado de referência.
+            <div class="row">
+                <div class="col-md-5 col-lg-6 align-self-center text-center text-sm-center text-md-start">
+                    <h1 class="section-heading"><strong>Sobre mim</strong></h1><br>
+                    <h5 class="section-subheading text-muted">
+                        <p style="text-align: justify;">
+                            Seja bem vindo! 
+                            Me chamo Daniel, sou nascido e criado em São Paulo/SP 
+                            e desde muito novo, eu era o tipo de criança que desmontava meus 
+                            brinquedos para ver como funcionavam por dentro. Sempre fui apaixonado 
+                            por aprender coisas novas, na maioria das vezes sendo autodidata, 
+                            querendo enfrentar novos desafios e fazer coisas que testem minha 
+                            capacidade de pensar e de resolver problemas.
                         </p>
-                    </div>
+                    </h5>
                 </div>
-            </li>
-            <li class="timeline-inverted">
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/reactLogo.png" alt="..."></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h2>React.js</h2>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted h5">
-                            Criação de interface de usuários<br>
-                            Renderização de elementos,<br>
-                            Componentes, propriedades.
-                        </p>
-                    </div>
+                <div class="col-md-7 col-lg-6 align-self-center text-center">
+                    <img class="shadow-lg mb-5 bg-body" id="profile" src="./images/profile.jpg">
                 </div>
-            </li>
-            <li>
-                <div class="timeline-image"><img class="rounded-circle img-fluid" src="images/nodeLogo.png" alt="..."></div>
-                <div class="timeline-panel">
-                    <div class="timeline-heading">
-                        <h2>Node.js</h2>
-                    </div>
-                    <div class="timeline-body">
-                        <p class="text-muted h5">
-                            Construção de servidores simples<br>
-                            Criação de pequenas aplicações.
-                        </p>
-                    </div>
+            
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 align-self-center text-center d-none d-md-block">
+                    <i class="bi bi-pc-display-horizontal fa-10x"></i>
                 </div>
-            </li>
-        </ul>
-    </section>
-    <!--Formação-->
-    <section class="page-section bg-light" id="formacao">
-        <div class="container">
-            <div class="text-center">
-                <h1 class="section-heading text-uppercase"><strong>Formação</strong></h1>
-                <h5 class="section-subheading text-muted">
-                    <p>
-                        <strong>Análise e Desenvolvimento de Sistemas - UNINOVE | 2018 - 2021</strong><br>
-                        Representante de classe, responsável por mediar assuntos entre alunos e professores/coordenadores do curso.<br>
-                        Responsável por criar website em projeto integrador de matérias.<br>
-                        Média geral das matérias: 8,1.
+                <div class="col-md-6 col-lg-6 align-self-center ms-auto">
+                <h5 class="section-subheading text-muted text-md-end">
+                    <p style="text-align: justify;">
+                        Em 2015, tive meu primeiro contato com o estudo de 
+                        tecnologia através de um curso de Web Design, após isso 
+                        comecei a me interessar muito pela área, e isso me levou 
+                        à faculdade de Análise e Desenvolvimento de Sistemas em 2018.
                     </p>
                 </h5>
+                </div>
+                <div class="col-md-7 col-lg-7 align-self-center text-center d-block d-md-none">
+                    <i class="bi bi-pc-display-horizontal fa-10x"></i>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-5 col-lg-6 align-self-center">
+                    <h5 class="section-subheading text-muted">
+                        <p style="text-align: justify;">
+                            Hoje estou no início da minha carreira de Desenvolvedor 
+                            Back-end e continuo fazendo cursos para ter cada vez mais 
+                            conhecimento, aprender sobre novas tecnologias e ferramentas, 
+                            afinal essa área requer um aprendizado constante. Neste 
+                            site você vai ver um pouco mais sobre mim, o que eu já fiz, 
+                            o que faço e todo o meu aprendizado até agora, espero que goste!
+                        </p>
+                    </h5>
+                </div>
+                <div class="col-md-7 col-lg-6 align-self-center text-center">
+                    <i class="bi bi-mortarboard fa-10x"></i>
+                </div>
             </div>
         </div>
     </section>
-    <!--Competências-->
-    <section class="page-section" id="competencias">
+
+    <!--Projects-->
+    <section class="page-section" id="projects">
         <div class="container">
-            <div class="text-center">
-                <h1 class="section-heading text-uppercase"><strong>Competências</strong></h1>
+            <div class="row">
+                <div class="col-md-4 col-lg-4 text-center align-self-center d-block d-md-none">
+                  <h1 class="section-heading"><strong>Projetos</strong></h1><br>
+                  <h5 class="section-subheading text-muted">
+                      <p style="text-align: justify;">
+                          Estes são alguns projetos que eu já desenvolvi e 
+                          materiais de cursos realizados, ao clicar você irá 
+                          para o meu Github, onde poderá “ver mais de perto”.
+                      </p>
+                      <br>
+                  </h5>
+                </div>
+                <br>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                    <div class="card shadow rounded">
+                        <a href="https://github.com/danielgsantos15/url_shortener" target="_blank"><img src="./images/urlShortener.jpg" class="card-img-top"></a>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>url_shortener</strong></h5>
+                            <p class="card-text">
+                                Encurtador de ULRs que recebe links do usuário, verifica se são válidos, realiza o encurtamento, salva no banco de dados e retorna o resultado.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+              </div>
+              <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+                <div class="card shadow rounded">
+                    <a href="https://github.com/danielgsantos15/apiNode" target="_blank"><img src="./images/apiCard.jpg" class="card-img-top" alt="..."></a>
+                    <div class="card-body">
+                        <h5 class="card-title"><strong>ApiNode</strong></h5>
+                        <p class="card-text">
+                            Curso realizado através da Alura, usando o padrão REST para criar uma API de biblioteca, cadastrando livros e autores.
+                        </p>
+                    </div>
+                </div>
+              </div>
+              <div class="col-md-4 col-lg-5 text-md-end align-self-center d-none d-md-block ms-auto">
+                <h1 class="section-heading"><strong>Projetos</strong></h1><br>
                 <h5 class="section-subheading text-muted">
-                    <p>
-                        Facilidade em identificar e resolver problemas<br>
-                        Comunicador claro e com objetividade<br>
-                        Mediador em situações de conflito<br>
-                        Prestativo em ajudar colegas
+                    <p style="text-align: justify;">
+                        Estes são alguns projetos que eu já desenvolvi e 
+                        materiais de cursos realizados, ao clicar você irá 
+                        para o meu Github, onde poderá “ver mais de perto”.
                     </p>
                 </h5>
+              </div>
             </div>
         </div>
     </section>
-    <!--Contato-->
-    <section class="page-section bg-light" id="contact">
+
+    <!--Tecnologys-->
+    <section class="page-section bg-light" id="tecnologys">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 text-center text-md-start align-self-center">
+                <h1 class="section-heading"><strong>Tecnologias</strong></h1><br>
+                <h5 class="section-subheading text-muted">
+                    <p style="text-align: justify;">
+                        O mundo tecnológico não para de evoluir, 
+                        todos os dias estamos descobrindo e aprendendo 
+                        algo novo, essas são algumas das ferramentas que 
+                        mais me ajudam a criar e conhecer coisas novas no meu 
+                        dia-dia de desenvolvimento, o aprendizado não pode parar.
+                    </p>
+                </h5>
+              </div>
+              <div class="col-12 col-md-6 col-lg-6 ms-auto">
+                <div class="row text-center">
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="bi bi-hexagon-fill"></i>
+                        </span>
+                        <h2 class="my-1">Node.js</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-brands fa-js"></i>
+                        </span>
+                        <h2 class="my-1">Javascript</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-database"></i>
+                        </span>
+                        <h2 class="my-1">MySQL</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-brands fa-html5"></i>
+                        </span>
+                        <h2 class="my-1">HTML & CSS</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fa-solid fa-code-branch"></i>
+                        </span>
+                        <h2 class="my-1">Git</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                    <div class="col-6 col-sm-4 col-md-4 col-lg-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="bi bi-bootstrap-fill"></i>
+                        </span>
+                        <h2 class="my-1">Bootstrap</h2>
+                        <p class="text-muted h5"><br></p>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--Development-->
+    <section class="page-section" id="development">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-lg-4 text-center align-self-center d-block d-md-none">
+                    <h1 class="section-heading text-md-end"><strong>Em desenvolvimento</strong></h1><br>
+                    <h5 class="section-subheading text-muted">
+                        <p style="text-align: justify;">
+                            Sempre surgem novas idéias e formas de 
+                            desenvolver projetos, e é importante manter 
+                            eles atualizados e com boa manutenção.
+                            Aqui estão projetos que estou trabalhando atualmente, 
+                            criando alguma nova funcionalidade ou corrigindo bugs.
+                        </p>
+                    </h5>
+                    <br>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 align-self-center">
+                    <div class="card h-100 shadow rounded">
+                        <a href="https://github.com/danielgsantos15/palavrete" target="_blank"><img src="./images/palavreteCard.jpg" class="card-img-top"></a>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Palavrete</strong></h5>
+                            <p class="card-text">
+                            Jogo de palavras inspirado no jogo Letreco. 
+                            O jogador tem 6 tentativas para acertar a 
+                            palavra secreta que é gerada aleatoriamente.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 align-self-center">
+                    <div class="card h-100 shadow rounded">
+                    <a href="https://github.com/danielgsantos15/curriculo" target="_blank"><img src="./images/curriculoCard.jpg" class="card-img-top" alt="..."></a>
+                        <div class="card-body">
+                            <h5 class="card-title"><strong>Currículo</strong></h5>
+                            <p class="card-text">
+                            Este site é o meu currículo online, 
+                            onde apresento quem eu sou e o 
+                            meu aprendizado. Atualmente 
+                            estou trabalhando na refatoração do código.
+                            </p>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <div class="col-md-4 col-lg-5 text-md-end align-self-center d-none d-md-block ms-auto">
+                  <h1 class="section-heading text-md-end"><strong>Em desenvolvimento</strong></h1><br>
+                  <h5 class="section-subheading text-muted">
+                      <p style="text-align: justify;">
+                        Sempre surgem novas idéias e formas de 
+                        desenvolver projetos, e é importante manter 
+                        eles atualizados e com boa manutenção.
+                        Aqui estão projetos que estou trabalhando atualmente, 
+                        criando alguma nova funcionalidade ou corrigindo bugs.
+                      </p>
+                  </h5>
+                </div>
+            </div>
+          </div>
+    </section>
+
+    <!--Education-->
+    <section class="page-section bg-light" id="education">
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 col-lg-6 text-center text-md-start align-self-center">
+                <h1 class="section-heading"><strong>Formação</strong></h1><br>
+                <h5 class="section-subheading text-muted">
+                    <p style="text-align: justify;">
+                        De 2018 a 2021, cursei Análise e Desenvolvimento de Sistemas 
+                        pela UNINOVE, onde aprendi a trabalhar em grupo, criando 
+                        novas ideias e desenvolvendo um pensamento de empresa 
+                        para criação de projetos que integravam matérias, dividindo 
+                        responsabilidades, trabalhando com prazos e tendo assim uma 
+                        visão mais profissional desta área.
+                        Também fui representante de classe durante todo o 
+                        período, mediando assuntos entre alunos, professores 
+                        e coordenadores do curso.
+                    </p>
+                </h5>
+              </div>
+              <div class="col-md-6 col-lg-6 align-self-center text-center">
+                <i class="bi bi-building fa-10x"></i>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!--Contact-->
+    <section class="page-section" id="contact">
         <div class="container align-items-center col-md-6">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase"><strong>Contato</strong></h2>
-                <h3 class="section-subheading text-muted">Me diga o que achou do site, mande alguma crítica ou sugestão.</h3>
+                <h3 class="section-subheading text-muted">
+                    É muito importante pra mim saber como 
+                    foi sua experiência aqui, me diga o que você 
+                    achou, tire dúvidas, envie sugestões, 
+                    críticas e opiniões.
+                </h3>
             </div>
             <form action="https://formsubmit.co/danieldesantos99@gmail.com" method="post" id="contactForm">
                 <div class="align-items-center">
@@ -208,28 +348,34 @@
                 </div>
                 <!-- Submit Button-->
                 <div class="text-center">
-                    <button class="btn btn-dark btn-xl text-uppercase" type="submit">Enviar</button>
+                    <button class="btn btn-primary btn-lg text-uppercase" type="submit">Enviar</button>
                 </div>
             </form>
         </div>
     </section>
-    <hr>
+
     <!--Footer-->
-    <footer class="footer py-4">
-        <div class="container">
+    <footer class="footer py-4 bg-dark">
+        <div class="container text-light">
             <div class="row align-items-center">
                 <div class="col-md-4 text-md-start">&copy;2022 Daniel Santos</div>
                 <div class="col-md-4 my-3 my-md-0">
-                    <a href="https://www.linkedin.com/in/danielgsantos/" target="blank" style="color: #0077b5;"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-                    <a href="https://github.com/danielgsantos15" target="blank" style="color: black;"><i class="fa-brands fa-github fa-2x"></i></a>
+                    <a href="https://www.linkedin.com/in/danielgsantos/" target="blank" style="color: #0077b5;"><i class="fa-brands fa-linkedin fa-3x"></i></a>
+                    <a href="https://github.com/danielgsantos15" target="blank" style="color: black;"><i class="fa-brands fa-github fa-3x"></i></a>
                 </div>
                 <p class="nav col-md-4 justify-content-end">Obrigado pela atenção, espero que tenha gostado!</p>
             </div>
         </div>
     </footer>
+
+    <a class="scroll-top scroll-top-visible" href="#top">
+        <i class="fas fa-angle-up"></i>
+    </a>
         
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="index.js"></script>
+    <script src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6609a90140.js" crossorigin="anonymous"></script>
     <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
