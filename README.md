@@ -2,18 +2,28 @@
 Página de apresentação
 Contendo:
 Informações sobre mim
-Conhecimentos
-O que estou estudando
+Projetos criados
+Tecnologias e conhecimentos
+Projetos em desenvolvimento
 Formação
-Competências
 Formulário para contato
 Redes sociais
 
 ## estrutura de pastas
 public
-    index.html
+  /css
     index.css
-    index.js
-    images/
+    
+  /files
     curriculo_daniel.pdf
+    
+  /images
+    <images files>
+    
+  /js
+    index.js
+    
+  index.html
 
+index.php
+README.md
