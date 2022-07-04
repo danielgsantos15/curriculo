@@ -102,7 +102,7 @@ p {
   margin-bottom: 4rem;
 }
 #mainNav {
-  background-image: url("./images/navBar.jpg");
+  background-image: url("../images/navBar.jpg");
 }
 
 #mainNav .navbar-brand {
@@ -131,7 +131,7 @@ header.masthead {
   padding-bottom: 6rem;
   text-align: center;
   color: #fff;
-  background-image: url("./images/background.png");
+  background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -393,7 +393,7 @@ section#contact form#contactForm :-ms-input-placeholder {
   bottom: 1.5625rem;
   right: 1.5625rem;
   z-index: 999;
-  background: rgba(255, 255, 255, .9);
+  background: rgba(31, 136, 255, 0.623);
   height: 2.375rem;
   width: 2.375rem;
   line-height: 2.25rem;
