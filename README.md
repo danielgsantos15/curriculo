@@ -13,17 +13,12 @@ Redes sociais
 public
   /css
     index.css
-    
   /files
     curriculo_daniel.pdf
-    
   /images
-    <images files>
-    
+    images files
   /js
     index.js
-    
   index.html
-
 index.php
 README.md
